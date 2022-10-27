@@ -91,6 +91,12 @@
             font-size: 18px;
             color: #fff;
             font-weight: bold;
+            transition: 0.5s;
+
+
+            &:hover{
+                transform: scale(1.05);
+            }
         }
     }
     .image{
