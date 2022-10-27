@@ -1,0 +1,19 @@
+.coureselWrapper{
+    .itemWrapper{
+        color: red;
+        margin-right: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        img{
+            object-fit: contain;
+            width: 600px;
+        }
+    
+        h2{
+            color: black;
+        }
+    }
+}

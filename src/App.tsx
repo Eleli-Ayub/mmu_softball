@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Header from "./Components/Header";
@@ -8,7 +8,7 @@ import About from "./Pages/About";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-100">
       <Router>
         <Header />
         <Routes>
