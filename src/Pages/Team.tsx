@@ -12,37 +12,91 @@ function Team() {
       <section>
         <h1>Pitchers</h1>
         <div className="playerList">
-          <Player />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
         </div>
       </section>
       <section>
         <h1>Catchers</h1>
         <div className="playerList">
-          <Player />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
         </div>
       </section>
       <section>
         <h1>First Basemen</h1>
         <div className="playerList">
-          <Player />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
         </div>
       </section>
       <section>
         <h1>Second Basemen</h1>
         <div className="playerList">
-          <Player />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
         </div>
       </section>
       <section>
         <h1>Third Basemen</h1>
         <div className="playerList">
-          <Player />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frankk.jpg")}
+            j_number="8"
+          />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
         </div>
       </section>
       <section>
         <h1>Outfielders</h1>
         <div className="playerList">
-          <Player />
+          <Player
+            name="Luis Kimutai"
+            image={require("../Assets/coach_frank.jpg")}
+            j_number="8"
+          />
         </div>
       </section>
     </div>
