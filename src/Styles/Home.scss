@@ -105,3 +105,74 @@
     }
     
 }
+.thirdPage{
+    padding: 5px 5%;
+    margin-bottom: 10%;
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        color: red;;
+        font-size: 40px;
+    }
+    section{
+        .coach{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            
+            span{
+                width: 50%;
+                
+                h4{
+                    font-size: 25px;
+                    color: #1f2937;
+                    font-weight: bold;
+    
+                }
+
+                img{
+                    height: 60vh;
+                    width: auto;
+                    border-radius: 50%;
+                    margin-top: 5%;
+                }
+               
+            }
+            .info{
+                display: flex;
+                flex-direction: column;
+                align-content: space-between;
+
+                h3{
+                    font-size: 20px;
+                    color: #1f2937;
+                    font-weight: bold;
+                    font-style: italic;
+                    margin-bottom: 5px;
+                }
+                span{
+                    margin-bottom: 20px;
+                }
+            }
+            
+        }
+        .captains{
+            margin-top: 10%;
+
+            .captainsList{
+                display: flex;
+                flex-direction: row;
+            }
+            h4{
+                font-size: 25px;
+                color: #1f2937;
+                font-weight: bold;
+
+            }
+        }
+    }
+}

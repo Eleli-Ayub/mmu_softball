@@ -1,0 +1,15 @@
+.single_captain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10%;
+
+    img{
+        height: 40vh;
+        border-radius: 50%;
+        margin: 5% 0%;
+        object-fit: contain;
+    }
+}
