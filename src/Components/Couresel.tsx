@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-carousel3";
-import { Players } from "../Assets/Players";
+import { Male_Players } from "../Assets/Players";
 import "../Styles/Slider.scss";
 
 export const Couresel = () => (
@@ -12,12 +12,10 @@ export const Couresel = () => (
       yRadius={48}
       autoPlay={true}
     >
-      {Players.map((player) => (
+      {Male_Players.map((player) => (
         <div className="itemWrapper">
           <img className="image" src={player.image} alt="" />
           <h2>{player.name}</h2>
-          <p>{player.Jersey}</p>
-          <h3>{player.position}</h3>
         </div>
       ))}
     </Carousel>

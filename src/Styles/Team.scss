@@ -27,13 +27,11 @@
     }
     section{
 
-        .playerList{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-        }
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      
         h1{
             font-size: 40px;
             font-weight: bold;

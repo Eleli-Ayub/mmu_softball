@@ -4,13 +4,26 @@
     justify-content: center;
     align-items: center;
     margin: 2%;
-    box-shadow: -5px 5px 20px #b2becf;
     border-radius: 10px;
+    width: 15vw;
+    height: 40vh;
+    margin-top: 20px;
+    box-shadow: -5px 5px 200px rgb(155, 151, 151);
+
+    .details{
+        color: #eee;
+        left: -40px;
+        color: #004;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+      
+    }
 
     img{
-        height: 40vh;
-        width: 20vw;
+        height: 80%;
+        width: 100%;
         object-fit: contain;
-        margin-bottom: 10px;
+
     }
 }

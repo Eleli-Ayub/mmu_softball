@@ -1,103 +1,49 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Female_Players, Male_Players } from "../Assets/Players";
 import Player from "../Components/Player";
 import "../Styles/Team.scss";
+
 function Team() {
+  const [gender, setGender] = useState("men");
+  let [data, setData] = useState(Male_Players);
+  useEffect(() => {
+    if (gender === "ladies") {
+      setData(Female_Players);
+    } else {
+      setData(Male_Players);
+    }
+    console.log(data);
+  }, [gender]);
+
   return (
     <div className="teamWrapper">
       <h1 className="title">The Team</h1>
       <div className="switchBtns">
-        <button>Men</button>
-        <button>Ladies</button>
+        <button
+          onClick={() => {
+            setGender("men");
+          }}
+        >
+          Men
+        </button>
+        <button
+          onClick={() => {
+            setGender("ladies");
+          }}
+        >
+          Ladies
+        </button>
       </div>
       <section>
-        <h1>Pitchers</h1>
-        <div className="playerList">
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-        </div>
-      </section>
-      <section>
-        <h1>Catchers</h1>
-        <div className="playerList">
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-        </div>
-      </section>
-      <section>
-        <h1>First Basemen</h1>
-        <div className="playerList">
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-        </div>
-      </section>
-      <section>
-        <h1>Second Basemen</h1>
-        <div className="playerList">
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-        </div>
-      </section>
-      <section>
-        <h1>Third Basemen</h1>
-        <div className="playerList">
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frankk.jpg")}
-            j_number="8"
-          />
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-        </div>
-      </section>
-      <section>
-        <h1>Outfielders</h1>
-        <div className="playerList">
-          <Player
-            name="Luis Kimutai"
-            image={require("../Assets/coach_frank.jpg")}
-            j_number="8"
-          />
-        </div>
+        {data.map((player) => (
+          <div className="playerList">
+            <Player
+              name={player.name}
+              image={player.image}
+              j_number={player.Jersey}
+            />
+          </div>
+        ))}
       </section>
     </div>
   );

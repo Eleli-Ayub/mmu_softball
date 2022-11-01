@@ -5,12 +5,14 @@ function Player({ image, j_number, name }: Player_I) {
   return (
     <div className="playerWrapper">
       <img src={image} alt="" />
-      <h2>
-        <b>{name}</b>
-      </h2>
-      <h2>
-        <b>{j_number}</b>
-      </h2>
+      <div className="details">
+        <h2 className="name">
+          <b>{name}</b>
+        </h2>
+        <h2>
+          <b>{j_number}</b>
+        </h2>
+      </div>
     </div>
   );
 }
