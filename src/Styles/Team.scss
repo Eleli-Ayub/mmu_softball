@@ -1,0 +1,35 @@
+.teamWrapper{
+    padding: 20px;
+
+    .switchBtns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid grey;
+
+        button{
+            padding: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            border-right: solid 1px red;
+            border-left: solid 1px red;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 40px;
+        color: tomato;
+        font-weight: bold;
+        margin: 3%;
+    }
+    section{
+        h1{
+            font-size: 40px;
+            font-weight: bold;
+        }
+    }
+    
+}
