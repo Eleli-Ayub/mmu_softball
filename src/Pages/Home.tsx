@@ -3,16 +3,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Baseball from "../Assets/Baseball.svg";
 import Batting from "../Assets/Batting.jpg";
+import {
+  Ball,
+  Black_ball,
+  Black_bat,
+  Brown_bat,
+  Helmet,
+  Star,
+} from "../Components/Assets";
 import Captains from "../Components/Captains";
 import { Couresel } from "../Components/Couresel";
 import Footer from "../Components/Footer";
+import Svg from "../Components/Svg";
 import "../Styles/Home.scss";
 
 function Home() {
   return (
     <>
-      <div className="bg-slate-100 h-screen flex flex-row justify-between items-center pr-20">
+      <div className="relative bg-slate-100 h-screen flex flex-row justify-between items-center pr-20">
         <section>
+          <Svg image={Helmet} top="5%" right="35%" />
+          <Svg image={Ball} top="75%" right="10%" />
+
           <img className="h-screen" src={Baseball} alt="Baseball" />
         </section>
         <div className="landingRight">

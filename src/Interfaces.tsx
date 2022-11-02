@@ -8,3 +8,8 @@ export interface Player_I {
   image: string;
   j_number: String;
 }
+export interface Svg_I {
+  image: string;
+  top: string;
+  right: string;
+}

@@ -1,3 +1,4 @@
+import { color } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { Female_Players, Male_Players } from "../Assets/Players";
 import Player from "../Components/Player";
@@ -20,6 +21,9 @@ function Team() {
       <h1 className="title">The Team</h1>
       <div className="switchBtns">
         <button
+          style={{
+            backgroundColor: gender === "men" ? "tomato" : "transparent",
+          }}
           onClick={() => {
             setGender("men");
           }}
@@ -27,6 +31,9 @@ function Team() {
           Men
         </button>
         <button
+          style={{
+            backgroundColor: gender === "ladies" ? "tomato" : "transparent",
+          }}
           onClick={() => {
             setGender("ladies");
           }}
