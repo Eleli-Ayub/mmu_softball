@@ -13,8 +13,8 @@ function Header() {
       <Link className="mr-10 text-2xl text-red-500 font-semibold" to="Games">
         Upcoming Games
       </Link>
-      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="Gallery">
-        Gallery
+      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="About">
+        About
       </Link>
     </div>
   );
