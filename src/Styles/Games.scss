@@ -1,0 +1,14 @@
+.gamesWrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1{
+        font-size: 40px;
+        color: #3f3f46;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

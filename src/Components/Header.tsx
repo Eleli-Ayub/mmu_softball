@@ -11,10 +11,10 @@ function Header() {
         Team
       </Link>
       <Link className="mr-10 text-2xl text-red-500 font-semibold" to="Games">
-        Games
+        Upcoming Games
       </Link>
-      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="About">
-        About Us
+      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="Gallery">
+        Gallery
       </Link>
     </div>
   );
