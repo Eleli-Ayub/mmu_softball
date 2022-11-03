@@ -7,9 +7,10 @@
     margin-right: 10%;
 
     img{
-        height: 40vh;
-        border-radius: 50%;
+        height: 500px;
+        width: 500px;
+        border-radius: 50px;
         margin: 5% 0%;
-        object-fit: contain;
+        object-fit: cover;
     }
 }

@@ -9,8 +9,9 @@
         align-items: center;
     
         img{
-            object-fit: contain;
-            width: 600px;
+            object-fit: cover;
+            width: 50vw;
+            height: 50vh;
         }
     
         h2{

@@ -47,6 +47,7 @@ function Team() {
             <Player
               name={player.name}
               image={player.image}
+              position={player.position}
               j_number={player.Jersey}
             />
           </div>

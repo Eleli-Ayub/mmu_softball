@@ -2,19 +2,9 @@ import { ArrowRightAltOutlined } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
 import Baseball from "../Assets/Baseball.svg";
-import Batting from "../Assets/Batting.jpg";
-import {
-  Ball,
-  Black_ball,
-  Black_bat,
-  Brown_bat,
-  Helmet,
-  Star,
-} from "../Components/Assets";
 import Captains from "../Components/Captains";
 import { Couresel } from "../Components/Couresel";
-import Footer from "../Components/Footer";
-import Svg from "../Components/Svg";
+
 import "../Styles/Home.scss";
 
 function Home() {
@@ -22,9 +12,6 @@ function Home() {
     <>
       <div className="relative bg-slate-100 h-screen flex flex-row justify-between items-center pr-20">
         <section>
-          <Svg image={Helmet} top="5%" right="35%" />
-          <Svg image={Ball} top="75%" right="10%" />
-
           <img className="h-screen" src={Baseball} alt="Baseball" />
         </section>
         <div className="landingRight">
@@ -89,7 +76,7 @@ function Home() {
             <div className="captainsList">
               <Captains
                 name="Eleli Ayub"
-                image={require("../Assets/coach_frank.jpg")}
+                image={require("../Assets/Players/Ayub.jpg")}
                 role="Head Mens Captain"
               />
               <Captains
@@ -104,17 +91,17 @@ function Home() {
             <div className="captainsList">
               <Captains
                 name="Antonicsm"
-                image={require("../Assets/coach_frank.jpg")}
+                image={require("../Assets/Players/Anto.jpg")}
                 role="Assistant Men Captain"
               />
               <Captains
                 name="Natasha Kedugo"
-                image={require("../Assets/coach_frank.jpg")}
+                image={require("../Assets/Players/Natasha.jpg")}
                 role="Assistant Ladies Captain"
               />
               <Captains
                 name="Lilian Nakeel"
-                image={require("../Assets/coach_frank.jpg")}
+                image={require("../Assets/Players/Nakeel.jpg")}
                 role="Assistant Ladies Captain"
               />
             </div>
