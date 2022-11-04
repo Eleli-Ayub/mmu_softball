@@ -11,7 +11,7 @@ import "../Styles/Footer.scss";
 function Footer() {
   return (
     <div className="footerWrapper">
-      <span>
+      <span className="navigation">
         <Link to="/Home">Home</Link>
         <Link to="/Team">Team</Link>
         <Link to="/Games">Games</Link>

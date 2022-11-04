@@ -14,11 +14,13 @@
 
 
     .art_logo{
-        height: 70%;
         width: 20%;
         font-size: 5px;
         display: flex;
+        justify-content: center;
         align-items: center;
+
+       
     }
     
 
@@ -53,12 +55,12 @@
         align-items: center;
         margin-right: 0;
         justify-content: center;
-        
-        
+        padding-bottom: 5vh;        
 
         img{
             width: 80%;
             object-fit: contain;
+            border-radius: 10px;
         }
     }
 
@@ -84,6 +86,62 @@
 
 @media only screen and (max-width: 678px) {
     .footerWrapper{
-        display: none;
+        flex-direction: column;
+        height: fit-content;
+        
+        .navigation{
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            a{
+                width: 35vw;
+                margin-top: 2vh;
+            }
+        }
+
+        
+
+        .socials{
+            justify-content: space-evenly;
+        }
+
+        .art_logo{
+            font-size: 8px;
+            margin: 5vh 0vw 5vh 40vw;
+        }
+
+        .logo{
+            align-self: center;
+            width: 80%;
+
+            img{
+                width: 100%;
+            }
+        }
+        
+        span{
+            margin-bottom: 3vh;
+            align-items: flex-start;
+            border-bottom: solid 1px rgb(163, 127, 127);
+            padding-bottom: 3vh;
+
+            a{
+                width: fit-content;
+                font-size: 20px;
+                margin: 5%;
+            }
+
+            
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footerWrapper{
+        .art_logo{
+            width: 50%;
+            font-size: 5px;
+            margin-left: 23vw;
+        }
+    
     }
 }
