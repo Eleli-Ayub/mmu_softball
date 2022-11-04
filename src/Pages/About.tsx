@@ -3,6 +3,7 @@ import "../Styles/About.scss";
 function About() {
   return (
     <div className="aboutwrapper">
+      <h1>All About the Game</h1>
       <div className="how">
         <section>
           <b>
@@ -21,7 +22,7 @@ function About() {
         </section>
         <video
           className="video_one"
-          autoPlay
+          controls
           muted
           src={require("../Assets/Videos/gameplay.mp4")}
         ></video>
@@ -32,12 +33,12 @@ function About() {
           <i>
             {" "}
             <b>
-              <i>How many positions are there for each game</i>
+              <i>How many positions are there for each game?</i>
             </b>
             <br />
             <br />
             <div className="players">
-              <p> There are nine positions for the game namely:</p>
+              <p> The game has nine position: </p>
               <ul>
                 <li>Pitcher</li>
                 <li>Catcher</li>
@@ -55,12 +56,12 @@ function About() {
       </div>
       <div className="results">
         <section>
-          <p>
+          <p className="title">
             <b>
               <i>How does a team win or loses a game?</i> <br /> <br />
             </b>
           </p>
-          <p>
+          <p className="docs">
             <i>
               The defending team has to take down three players from the offense
               team while preventing runs (offense player reaching home plate
@@ -76,8 +77,7 @@ function About() {
         <p>
           <i>
             Softball is a fun and interactive game which requires both physical
-            and judgment prowess to play. Make sure to play or be a fan and to
-            enjoy.
+            and mental prowess to play. Play or be a fan to enjoy.
           </i>
         </p>
       </div>
