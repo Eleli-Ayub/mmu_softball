@@ -1,0 +1,25 @@
+.phone_header {
+  display: none;
+}
+@media only screen and (max-width: 678px) {
+  .phone_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    height: 8vh;
+    width: 100vw;
+
+    button {
+      height: 100%;
+
+      .icon {
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}
