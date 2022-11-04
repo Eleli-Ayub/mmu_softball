@@ -10,13 +10,13 @@ import "../Styles/Home.scss";
 function Home() {
   return (
     <>
-      <div className="relative bg-slate-100 h-screen flex flex-row justify-between items-center pr-20">
+      <div className="homeWrapper">
         <section>
-          <img className="h-screen" src={Baseball} alt="Baseball" />
+          <img src={Baseball} alt="Baseball" />
         </section>
         <div className="landingRight">
           <h1 className="title">MMU STOMERZ</h1>
-          <h3 className="mb-10">(Baseball 5 and softball team)</h3>
+          <h3>(Baseball 5 and softball team)</h3>
           <p>
             <i>
               MMU Stomerz is a team, comprised of both male and females, each
@@ -54,7 +54,7 @@ function Home() {
           <div className="coach">
             <span>
               <h4>Head Coach</h4>
-              <img src={require("../Assets/coach_frank.jpg")} alt="" />
+              <img src={require("../Assets/coach_frankk.jpg")} alt="" />
             </span>
             <span className="info">
               <h3>Name: </h3> <span>Frank Karugu</span>

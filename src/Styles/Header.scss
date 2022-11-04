@@ -1,0 +1,21 @@
+.headerWrapper{
+    widows: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    background-color: slate;
+    padding-top: 5vh;
+    padding-right: 20px;
+
+    a{
+        margin-right: 2vw;
+        font-size: 23px;
+        color: #ef4444;
+        font-weight: bold;
+
+    }
+}
+@media only screen and (max-width: 678px) {
+    .headerWrapper{
+        display: none;
+    }
+  }

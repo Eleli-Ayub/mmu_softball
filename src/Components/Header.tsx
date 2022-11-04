@@ -1,21 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../Styles/Header.scss";
 function Header() {
   return (
-    <div className="w-full flex justify-end bg-slate pt-10 pr-20 ">
-      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="/">
-        Home
-      </Link>
-      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="Team">
-        Team
-      </Link>
-      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="Games">
-        Upcoming Games
-      </Link>
-      <Link className="mr-10 text-2xl text-red-500 font-semibold" to="About">
-        About
-      </Link>
+    <div className="headerWrapper">
+      <Link to="/">Home</Link>
+      <Link to="Team">Team</Link>
+      <Link to="Games">Upcoming Games</Link>
+      <Link to="About">About</Link>
     </div>
   );
 }
