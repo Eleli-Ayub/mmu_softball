@@ -14,3 +14,6 @@ export interface Svg_I {
   top: string;
   right: string;
 }
+export interface Scroll_I {
+  children: any;
+}

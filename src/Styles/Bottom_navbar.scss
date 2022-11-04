@@ -1,20 +1,25 @@
 .navbarWrapper {
-  position: fixed;
-  bottom: 3vh;
-  background-color: rgb(189, 180, 180);
-  width: 90vw;
-  padding: 10px;
-  margin-left: 5vw;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 100;
-
-  a {
+  display: none;
+}
+@media only screen and (max-width: 678px) {
+  .navbarWrapper {
+    position: fixed;
+    bottom: 3vh;
+    background-color: rgb(189, 180, 180);
+    width: 90vw;
+    padding: 10px;
+    margin-left: 5vw;
+    border-radius: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
+    justify-content: space-between;
+    z-index: 100;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+    }
   }
 }
