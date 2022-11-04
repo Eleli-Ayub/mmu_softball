@@ -23,6 +23,15 @@
 
 @media only screen and (max-width: 678px) {
     .coureselWrapper{
-        display: none;
+        position: absolute;
+        left:-200px;
+        .itemWrapper{
+
+            img{
+                width: 300px;
+                height: 20vh;
+                margin-left: 0;
+            }
+        }
     }
 }
