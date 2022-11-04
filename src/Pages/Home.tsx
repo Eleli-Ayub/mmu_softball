@@ -1,4 +1,4 @@
-import { ArrowRightAltOutlined } from "@mui/icons-material";
+import { ArrowRightAlt, ArrowRightAltOutlined } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
 import Baseball from "../Assets/Baseball.svg";
@@ -21,12 +21,13 @@ function Home() {
             <i>
               MMU Stomerz is a team, comprised of both male and females, each
               totaling to a team that represents the Multimedia University of
-              Kenya in the WBSC competitions. Stomerz participate both the
-              competitions at national league level.
+              Kenya in the WBSC competitions nationally. Stomerz participate
+              both, <b>(baseball 5 and softball)</b> competitions at national
+              league level.
             </i>
           </p>
           <Link className="fullInfoButton" to="About">
-            View Full Info
+            View Full Team... <ArrowRightAlt />
           </Link>
         </div>
       </div>
@@ -35,13 +36,11 @@ function Home() {
         <div className="container">
           <section>
             <p>
-              Stomerz currently boasts a total of 37 players, 20 men and 17
-              women. The player are broadly categorized into two major section,
+              Stomerz currently boasts a total of 28 players, 17 men and 15
+              women. The players are broadly categorized into two major section,
               Infield and outfield. Per game the players required are ...
             </p>
-            <Link to="Players">
-              View the whole team ... <ArrowRightAltOutlined />{" "}
-            </Link>
+            <Link to="Players">To Game description ... </Link>
           </section>
           <div className="image">
             <Couresel />
@@ -54,20 +53,23 @@ function Home() {
           <div className="coach">
             <span>
               <h4>Head Coach</h4>
-              <img src={require("../Assets/coach_frankk.jpg")} alt="" />
+              <img src={require("../Assets/coach_frank.jpg")} alt="" />
             </span>
             <span className="info">
               <h3>Name: </h3> <span>Frank Karugu</span>
               <h3>Title: </h3> <span>Head Coach</span>
               <h3>Profile</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis, corporis. Veniam excepturi saepe iusto, illum
-                deleniti consectetur eveniet in quas, error dolore aspernatur
-                iste ipsum laudantium non voluptate vero dicta nisi ratione, sit
-                dolorum ea accusantium culpa rerum vitae. Eveniet dolor
-                exercitationem facere debitis assumenda doloremque repudiandae
-                minus excepturi beatae.
+                Mr. Frank Karugu is the head coach of both teams{" "}
+                <b>
+                  <i>(Baseball5 and Softball)</i>
+                </b>
+                . He is in charge or recruiting, training, and preparing the
+                team for upcoming fixtures. <br /> Mr. Frank also holds other
+                titles such as; Head of games and sports in Multimedia
+                University, The president of the Softball Federation in Kenya,
+                and lastly the secretary general of the African Softball
+                Federation.
               </p>
             </span>
           </div>
@@ -81,7 +83,7 @@ function Home() {
               />
               <Captains
                 name="Miriam Edung"
-                image={require("../Assets/coach_frank.jpg")}
+                image={require("../Assets/Players/Mirriam.jpg")}
                 role="Ladies Captain"
               />
             </div>

@@ -66,8 +66,8 @@ function About() {
               The defending team has to take down three players from the offense
               team while preventing runs (offense player reaching home plate
               after batting theball and not eliminated). <br /> The Team with
-              the most runs after the three innings (One inning is a round of
-              each team fielding and batting) wins the game.
+              the most runs after the innings are completed(One inning is a
+              round of the teams fielding and batting) wins the game.
             </i>
           </p>
         </section>

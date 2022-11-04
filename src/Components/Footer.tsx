@@ -12,31 +12,31 @@ function Footer() {
   return (
     <div className="footerWrapper">
       <span className="navigation">
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/Team">Team</Link>
         <Link to="/Games">Games</Link>
         <Link to="/About">About</Link>
       </span>
       <span>
-        <Link to="/Home">Team Structure and Management</Link>
-        <Link to="/Team">Fixtures and Upcoming Events</Link>
+        <Link to="/">Team Structure and Management</Link>
+        <Link to="/Games">Fixtures and Upcoming Events</Link>
         <Link to="/Games">Training and Practice</Link>
         <Link to="/About">Join the team</Link>
       </span>
       <span className="socials">
-        <Link to="/Home">
+        <Link to="/">
           {" "}
           <FacebookOutlined
             style={{ color: "aqua", width: "50px", height: "50px" }}
           />{" "}
         </Link>
-        <Link to="/Home">
+        <Link to="/">
           {" "}
           <Instagram
             style={{ color: "aqua", width: "50px", height: "50px" }}
           />{" "}
         </Link>
-        <Link to="/Home">
+        <Link to="/">
           {" "}
           <Twitter
             style={{ color: "aqua", width: "50px", height: "50px" }}
