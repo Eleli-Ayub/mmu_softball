@@ -38,4 +38,26 @@
         }
     }
     
+}@media only screen and (max-width: 678px) {
+    .teamWrapper{
+        .switchBtns{
+            height: 8vh;
+
+            button{
+                font-size: 20px;
+            }
+        }
+        section{
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            margin-top: 4vh;
+
+            .playerList{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+        }
+    }
 }
