@@ -87,8 +87,8 @@ function Home() {
             </div>
           </div>
           <div className="captains">
-            <h4>Assistant Captains</h4>
-            <div className="captainsList">
+            <h4 className="asistantCaptains">Assistant Captains</h4>
+            <div className="captainsList asistantCaptainsList">
               <Captains
                 name="Antonicsm"
                 image={require("../Assets/Players/Anto.jpg")}

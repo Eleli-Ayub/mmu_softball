@@ -265,25 +265,75 @@
             
         }
     }
+    .thirdPage{
+        margin-top: 15vh;
+        section{
+            .coach{
+                flex-direction: column;
+                margin-top: 5vh;
+                margin-bottom: 10vh;
+
+                span{
+                    width: 80vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    h4{
+                        font-size: 30px;
+                    }
+                    img{
+                        height: 300px;
+                        width: 300px;
+                        margin-bottom: 5vh;
+                    }
+                }
+
+                .info{
+                    h3{
+                        font-size: 22px;
+                        text-decoration: underline;
+                    }
+                    span{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .captains{
+              h4{
+                font-size: 35px;
+              }
+              .asistantCaptains{
+                margin-top: 5vh;
+                font-size: 28px;
+              }
+              .asistantCaptainsList{
+                flex-direction: column;
+              }
+            }
+        }
+    }
   }
   @media only screen and (max-width: 600px) {
     .homeWrapper{
-    
-        section{
-
-            img{
-            }
-            
-        }
         .landingRight{
-
-
             .title{
                 font-size: 43px;
             }
         }
-        .secondPage{
-            
+        
+    }
+    .thirdPage{
+        margin-top: 15vh;
+        section{
+            .captains{
+                .captainsList{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
         }
     }
   }
