@@ -195,7 +195,7 @@ export const Male_Players = [
     position: "Shot Stop",
     Jersey: "9",
     gender: "male",
-    image: require("../Assets/Players/Jefff.jpg"),
+    image: require("../Assets/Players/Jeff.jpg"),
   },
   {
     name: "Charles",
