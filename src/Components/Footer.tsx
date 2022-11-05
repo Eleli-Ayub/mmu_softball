@@ -25,9 +25,13 @@ function Footer() {
       </span>
       <span className="socials">
         <Link to="/">
-          {" "}
           <FacebookOutlined
-            style={{ color: "aqua", width: "50px", height: "50px" }}
+            style={{
+              color: "aqua",
+              width: "50px",
+              height: "50px",
+              margin: "2px",
+            }}
           />{" "}
         </Link>
         <Link to="/">

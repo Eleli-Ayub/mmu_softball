@@ -42,7 +42,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
     flex-direction: row;
 
     img {
@@ -67,7 +67,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10vh;
     margin-top: 20vh;
 
     section {
@@ -75,7 +74,6 @@
     }
   }
   .bottom {
-    margin-top: 20vh;
     font-size: 25px;
     width: 60%;
     text-align: center;
@@ -88,6 +86,7 @@
     .how {
       flex-direction: column;
       width: 80vw;
+      height: 80vh;
 
       section {
         width: 100%;
@@ -101,11 +100,12 @@
     }
     .positions {
       flex-direction: column-reverse;
-      height: fit-content;
       width: 80vw;
+      height: 100vh;
 
       img {
         width: 80vw;
+        height: auto;
       }
 
       section {
@@ -136,6 +136,8 @@
       flex-direction: column;
       margin-top: 5vh;
       width: 80vw;
+      height: fit-content;
+      background-color: green;
 
       section {
         width: 100%;

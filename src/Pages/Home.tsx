@@ -40,7 +40,7 @@ function Home() {
               women. The players are broadly categorized into two major section,
               Infield and outfield. Per game the players required are ...
             </p>
-            <Link to="Players">To Game description ... </Link>
+            <Link to="Team">To Game description ... </Link>
           </section>
           <div className="image">
             <Couresel />

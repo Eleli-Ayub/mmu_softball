@@ -38,7 +38,7 @@ function About() {
             <br />
             <br />
             <div className="players">
-              <p> The game has nine position: </p>
+              <p> The game has nine positions: </p>
               <ul>
                 <li>Pitcher</li>
                 <li>Catcher</li>
