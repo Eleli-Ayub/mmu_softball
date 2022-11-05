@@ -94,7 +94,7 @@ function Home() {
               <Captains
                 name="Antonicsm"
                 image={require("../Assets/Players/Anto.jpg")}
-                role="Assistant Men Captain"
+                role="Assistant Mens Captain"
               />
               <Captains
                 name="Natasha Kedugo"

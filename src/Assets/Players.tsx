@@ -1,7 +1,14 @@
 export const Female_Players = [
   {
-    name: "Liz",
+    name: "Njau",
     position: "Pitcher",
+    Jersey: "17",
+    gender: "Female",
+    image: require("../Assets/Batting.jpg"),
+  },
+  {
+    name: "Liz",
+    position: "Outfielder",
     Jersey: "15",
     gender: "Female",
     image: require("../Assets/Players/Liz.jpg"),
@@ -42,11 +49,25 @@ export const Female_Players = [
     image: require("../Assets/Players/Natasha.jpg"),
   },
   {
+    name: "Mwende",
+    position: "Second Base",
+    Jersey: "18",
+    gender: "Female",
+    image: require("../Assets/Batting.jpg"),
+  },
+  {
     name: "Imelda",
     position: "Shot Stop",
     Jersey: "9",
     gender: "Female",
     image: require("../Assets/Players/Imelda.jpg"),
+  },
+  {
+    name: "Joy",
+    position: "Shot Stop",
+    Jersey: "19",
+    gender: "Female",
+    image: require("../Assets/Batting.jpg"),
   },
   {
     name: "Nakeel",
@@ -56,18 +77,25 @@ export const Female_Players = [
     image: require("../Assets/Players/Nakeel.jpg"),
   },
   {
-    name: "Bridgit",
-    position: "Third Base",
-    Jersey: "10",
-    gender: "Female",
-    image: require("../Assets/Batting.jpg"),
-  },
-  {
     name: "Bree",
     position: "Outfielder",
     Jersey: "6",
     gender: "Female",
     image: require("../Assets/Players/Bridgit.jpg"),
+  },
+  {
+    name: "Brenda",
+    position: "Outfielder",
+    Jersey: "16",
+    gender: "Female",
+    image: require("../Assets/Batting.jpg"),
+  },
+  {
+    name: "Bridgit",
+    position: "Outfielder",
+    Jersey: "17",
+    gender: "Female",
+    image: require("../Assets/Batting.jpg"),
   },
   {
     name: "Mirriam",
