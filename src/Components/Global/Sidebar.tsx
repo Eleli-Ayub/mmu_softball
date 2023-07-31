@@ -16,7 +16,7 @@ function Sidebar() {
   const [sideBarClass, setSideBarClass] = useState("sideBarWrapperClose");
   return (
     <>
-      <div className="phone_header">
+      <div className="phone_header bg-gray fixed z-10">
         <button
           onClick={() => {
             setSideBarClass("sideBarWrapperOpen");
