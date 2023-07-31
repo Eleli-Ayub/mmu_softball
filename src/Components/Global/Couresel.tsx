@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-carousel3";
-import { Male_Players } from "../Assets/Players";
-import "../Styles/Slider.scss";
+import { Male_Players } from "../../Assets/Players";
+import "../../Styles/Slider.scss";
 
 export const Couresel = () => (
   <div className="coureselWrapper">

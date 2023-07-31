@@ -1,6 +1,6 @@
 import React from "react";
-import { Player_I } from "../Interfaces";
-import "../Styles/Player.scss";
+import { Player_I } from "../../Interfaces";
+import "../../Styles/Player.scss";
 function Player({ image, j_number, name, position }: Player_I) {
   return (
     <div className="playerWrapper">

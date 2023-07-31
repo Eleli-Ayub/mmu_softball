@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Bottom_navbar.scss";
+import "../../Styles/Bottom_navbar.scss";
 import { Link } from "react-router-dom";
 import { Diversity3, Home, Info, SportsBaseball } from "@mui/icons-material";
 function Bottom_navbar() {

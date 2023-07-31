@@ -7,7 +7,7 @@ import {
 } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Styles/Footer.scss";
+import "../../Styles/Footer.scss";
 function Footer() {
   return (
     <div className="footerWrapper">
@@ -56,10 +56,10 @@ function Footer() {
         ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝
       </div>
       <span className="wbsc">
-        <img src={require("../Assets/wbsc.png")} alt="" />
+        <img src={require("../../Assets/wbsc.png")} alt="" />
       </span>
       <span className="logo">
-        <img src={require("../Assets/eleli_afrika.png")} alt="" />
+        <img src={require("../../Assets/eleli_afrika.png")} alt="" />
         <i>Made at eleli afrika</i>
       </span>
     </div>

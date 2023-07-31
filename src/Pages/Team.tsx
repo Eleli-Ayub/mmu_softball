@@ -1,7 +1,7 @@
 import { color } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { Female_Players, Male_Players } from "../Assets/Players";
-import Player from "../Components/Player";
+import Player from "../Components/Global/Player";
 import "../Styles/Team.scss";
 
 function Team() {

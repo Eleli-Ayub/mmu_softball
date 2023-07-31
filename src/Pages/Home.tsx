@@ -3,20 +3,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Baseball from "../Assets/Baseball.svg";
 import Captains from "../Components/Captains";
-import { Couresel } from "../Components/Couresel";
 
 import "../Styles/Home.scss";
 
 function Home() {
-  return (
-    <>
-      <div className="homeWrapper">
+  return <div className="h-[100vh]"></div>;
+  {
+    /* <div className="homeWrapper">
         <section>
           <img src={Baseball} alt="Baseball" />
         </section>
         <div className="landingRight">
           <h1 className="title">MMU STOMERZ</h1>
-          <h3>(Baseball 5 and softball team)</h3>
+          <h3 className=" ">(Baseball 5 and softball team)</h3>
           <p>
             <i>
               MMU Stomerz is a team, comprised of both male and females, each
@@ -109,9 +108,8 @@ function Home() {
             </div>
           </div>
         </section>
-      </div>
-    </>
-  );
+      </div> */
+  }
 }
 
 export default Home;

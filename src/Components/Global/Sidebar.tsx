@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../Styles/Sidebar.scss";
-import "../Styles/Phone_header.scss";
-import stomerz from "../Assets/stomerz_logo.png";
-import Eleli from "../Assets/eleli_afrika.png";
+import "../../Styles/Sidebar.scss";
+import "../../Styles/Phone_header.scss";
+import stomerz from "../../Assets/stomerz_logo.png";
+import Eleli from "../../Assets/eleli_afrika.png";
 import {
   Close,
   Facebook,
