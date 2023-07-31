@@ -13,18 +13,23 @@ const Slider = () => {
   };
   setTimeout(infiniteSlider, 5000);
   return (
-    <div className="relative text-white h-full flex items-center justify-center">
+    <div className="relative text-white h-full flex items-start justify-start">
       <img
-        className="max-h-full min-w-full min-h-3/5 object-cover "
+        className="hidden md:block max-h-full min-w-full min-h-3/5 object-cover "
         src={Male_Players[currentPlayer].image}
       />
-      <div className="absolute bg-black/80 w-full h-full flex flex-col items-start pl-40 justify-center px-10 py-10 child:h-fit">
-        <div className="w-[400px] h-fit bg-black/80 p-10 rounded-xl">
+      <div className="absolute bg-black/60 w-full h-full flex flex-col items-start lg:pl-40  lg:justify-center px-2 md:px-10 py-10 child:h-fit">
+        <div className="lg:w-[400px] w-full h-fit bg-black/80 p-5 md:p-10 rounded-xl">
           <h1 className=" text-lightred font-bold text-3xl mb-5">
             Player Profile:
           </h1>
 
-          <div className="flex flex-col  gap-5 items-start">
+          <div className="relative flex flex-col gap-5 items-start">
+            <img
+              className="md:hidden absolute h-[100px] w-[100px] rounded-full right-3 top-0 object-cover"
+              src={Male_Players[currentPlayer].image}
+              alt=""
+            />
             <h1>
               <b>Name: </b> <span>{Male_Players[currentPlayer].name}</span>{" "}
             </h1>
