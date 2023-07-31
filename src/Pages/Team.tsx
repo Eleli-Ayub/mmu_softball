@@ -16,7 +16,7 @@ function Team() {
   }, [gender]);
 
   return (
-    <div className="flex flex-col py-20 lg:py-10 items-center">
+    <div className="flex flex-col py-20 lg:py-20 items-center w-full">
       <h1 className=" text-center text-[40px] text-lightred m-[3%] font-bold">
         The Team
       </h1>

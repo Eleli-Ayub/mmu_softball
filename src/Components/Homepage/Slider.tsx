@@ -13,12 +13,12 @@ const Slider = () => {
   };
   setTimeout(infiniteSlider, 5000);
   return (
-    <div className="relative text-white h-full flex items-start justify-start">
+    <div className="text-white  h-[100vh] w-full flex items-start justify-start">
       <img
         className="hidden md:block max-h-full min-w-full min-h-3/5 object-cover "
         src={Male_Players[currentPlayer].image}
       />
-      <div className="absolute bg-black/60 w-full h-full flex flex-col items-start lg:pl-40  lg:justify-center px-2 md:px-10 py-10 child:h-fit">
+      <div className="absolute bg-black/60 w-full h-full flex flex-col items-start lg:pl-40 lg:justify-center px-2 child:h-fit">
         <div className="lg:w-[400px] w-full h-fit bg-black/80 p-5 md:p-10 rounded-xl">
           <h1 className=" text-lightred font-bold text-3xl mb-5">
             Player Profile:

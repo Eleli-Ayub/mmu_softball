@@ -1,8 +1,7 @@
 import React from "react";
-import "../Styles/Games.scss";
 function Games() {
   return (
-    <div className="gamesWrapper">
+    <div className="w-full">
       <h1>
         Page is still under development <br /> KIndly Await{" "}
       </h1>
