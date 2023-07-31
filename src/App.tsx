@@ -11,7 +11,7 @@ import Sidebar from "./Components/Global/Sidebar";
 import Header from "./Components/Global/Header";
 function App() {
   return (
-    <div className="bg-white">
+    <div className="bg-black">
       <Router>
         <ScrollToTop>
           <Header />

@@ -5,9 +5,14 @@ import Baseball from "../Assets/Baseball.svg";
 import Captains from "../Components/Captains";
 
 import "../Styles/Home.scss";
+import Slider from "../Components/Homepage/Slider";
 
 function Home() {
-  return <div className="h-[100vh]"></div>;
+  return (
+    <div className="h-[100vh]">
+      <Slider />
+    </div>
+  );
   {
     /* <div className="homeWrapper">
         <section>
