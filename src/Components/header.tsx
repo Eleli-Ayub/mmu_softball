@@ -19,7 +19,7 @@ const Header:React.FC = () => {
           <Link to="/Team" className="text-red-600 font-bold text-xl hover:text-pink-500">
             Team
           </Link>
-          <Link to="/games" className="text-red-600 font-bold text-xl hover:text-pink-500">
+          <Link to="/Game" className="text-red-600 font-bold text-xl hover:text-pink-500">
             Upcoming Games
           </Link>
           <Link to="/About" className="text-red-600 font-bold text-xl hover:text-pink-500">

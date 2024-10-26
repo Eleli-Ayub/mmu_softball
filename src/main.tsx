@@ -5,7 +5,8 @@ import App from './App';
 import './index.css'; // Ensure Tailwind is imported
 
 ReactDOM.render(
-  <React.StrictMode>
+  
+  <React.StrictMode >
    
       <App />
     
