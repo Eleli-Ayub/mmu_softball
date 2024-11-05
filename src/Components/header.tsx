@@ -8,7 +8,7 @@ const Header:React.FC = () => {
     <div className='w-full  h-20 top-0 left-0 z-50 bg-slate-300'>
     <nav className= 'flex items-center justify-between w-full max-w-7xl mx-auto px-4'>
       
-       <div className='bg-red-200 '>
+       <div className=' '>
                 <img className='w-32 h-20'
                 src={Logo}  alt="stomerz logo"/>
        </div>

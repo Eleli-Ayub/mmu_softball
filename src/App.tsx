@@ -6,6 +6,8 @@ import Team from "./Pages/team";
 import About from "./Pages/about";
 import Game from "./Pages/game";
 import "./main";
+import AllMalePlayers from "./Pages/allMalePlayers";
+import AllFemalePlayers from "./Pages/allFemalePLayers";
 
 
          
@@ -22,6 +24,8 @@ function App() {
             <Route path="/Team" element={<Team/>} />     
            <Route path="/About" element={<About/>} />
            <Route path="/Game" element={<Game/>} />
+           <Route path="/All/Female" element={<AllFemalePlayers/>} /> 
+           <Route path="/All/Male" element={<AllMalePlayers/>} /> 
           </Routes>
          <Footer/>
       </BrowserRouter> 

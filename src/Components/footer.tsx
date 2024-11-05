@@ -5,11 +5,11 @@ import Spon2 from "../Assets/wbsc.png";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white w-full py-8">
+    <footer className="bg-gray-400 text-white w-full py-8">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         
         
-        <div className="w-full md:w-auto flex justify-center md:justify-start bg-red-200">
+        <div className="w-full md:w-auto flex justify-center md:justify-start ">
           <img src={Logo} alt="Logo" className="w-52" />
         </div>    
 

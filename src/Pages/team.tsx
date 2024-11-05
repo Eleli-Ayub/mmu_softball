@@ -1,90 +1,69 @@
-
-// import { useEffect, useState } from "react";
-// import { Female_Players, Male_Players } from "../Assets/Players";
-// import Player from "../Components/player";
+ import { Button } from "@mui/material";
+import { Mplayers } from "../Assets/Players";
+ import { Fplayers } from "../Assets/Players";
+ import { useNavigate } from "react-router-dom";
+ //import { useState } from "react"
 
 const Team:React.FC = () => {
-  // const [gender, setGender] = useState("men");
-  // let [data, setData] = useState(Male_Players);
-  // useEffect(() => {
-  //   if (gender === "ladies") {
-  //     setData(Female_Players);
-  //   } else {
-  //     setData(Male_Players);
-  //   }
-  //   console.log(data);
-  // }, [gender]);
+  const navigate = useNavigate();
+
+  const click = () => {
+       navigate('/All/Female');
+  }
+
+  const handleClick = () => {
+    navigate('/All/Male');
+}
+  
 
   return (
 
 
-    <div className="h-96 w-full bg-slate-400 font-bold text-3xl text-center">
-          page under construction
+    <div className="h-full w-full max-w-7xl mx-auto  ">
+     
+        <div className="border   border-slate-200 rounded-lg mt-5 mb-5  ">
+          <p className="text-center py-4">The Men's Team</p>
+          <div className="flex flex-row  px-5 h-fit pb-2 w-full space-x-4">
+         
+            {Mplayers.map((mplayer) => (          
+              <div key={mplayer.id}
+                  className="h-66 w-56 p-4  flex flex-col border border-gray-300 rounded-lg shadow-lg items-center justify-center">                    
+                  <img 
+                  src={mplayer.image}
+                  alt="MalePlayer"
+                  className="w-full h-full object-cover rounded-lg"
+                  />
+                  {mplayer.name}  
+               </div>
+             ))}
+             <Button onClick={handleClick}
+              className="w-28 h-10 pt-3 hover:bg-slate-200" >View All</Button>
+          </div>
+         </div>
+
+         <div className="border   border-slate-200 rounded-lg mb-5  ">
+         <p className="text-center py-4">The Women's Team</p>
+          <div className="flex flex-row  px-5 pb-2 w-full space-x-4">
+            {Fplayers.map((fplayer) => (
+              <div key={fplayer.id}
+              className="h-72 w-72 p-4 flex flex-col border border-gray-300 rounded-lg shadow-lg items-center justify-center">
+                <img
+                src={fplayer.image}
+                alt="FemalePLayer"
+                className="w-full h-full object-cover rounded-lg"
+                 />
+                 {fplayer.name}
+             </div>
+            ))}
+            <Button onClick={click} 
+            className="w-36 h-10 pt-3 hover:bg-slate-200" >View All </Button>
+          </div>
+        </div>
     </div>
+    
 
 
-    // <div className="flex flex-col py-20 lg:py-20 items-center w-full">
-    //   <h1 className=" text-center text-[40px] text-lightred m-[3%] font-bold">
-    //     The Team
-    //   </h1>
-    //   <div className=" w-full flex items-center justify-center border-b border-b-heavygray h-fit">
-    //     <button
-    //       className="p-2 text-[18px] border-x border-x-lightred mr-2 rounded-lg"
-    //       style={{
-    //         backgroundColor: gender === "men" ? "tomato" : "#1f2937",
-    //         borderRight: gender === "men" ? "solid 3px gray" : "solid 2px red",
-    //         borderLeft: gender === "men" ? "solid 3px gray" : "solid 2px red",
-    //       }}
-    //       onClick={() => {
-    //         setGender("men");
-    //       }}
-    //     >
-    //       Men
-    //     </button>
-    //     <button
-    //       className="p-2 text-[18px] border-x border-x-lightred mr-2 rounded-lg"
-    //       style={{
-    //         backgroundColor: gender === "ladies" ? "tomato" : "#1f2937",
-    //         borderRight:
-    //           gender === "ladies" ? "solid 3px gray" : "solid 2px red",
-    //         borderLeft:
-    //           gender === "ladies" ? "solid 3px gray" : "solid 2px red",
-    //       }}
-    //       onClick={() => {
-    //         setGender("Male");
-    //       }}
-    //     >
-    //       Ladies
-    //     </button>
-    //     <button
-    //       className="p-2 text-[18px] border-x border-x-lightred mr-2 rounded-lg"
-    //       style={{
-    //         backgroundColor: gender === "former" ? "tomato" : "#1f2937",
-    //         borderRight:
-    //           gender === "former" ? "solid 3px gray" : "solid 2px red",
-    //         borderLeft:
-    //           gender === "former" ? "solid 3px gray" : "solid 2px red",
-    //       }}
-    //       onClick={() => {
-    //         setGender("ladies");
-    //       }}
-    //     >
-    //       Former
-    //     </button>
-    //   </div>
-    //   <section className="flex flex-row flex-wrap w-full gap-5 justify-center mt-10">
-    //     {data.map((player) => (
-    //       <div className="lg:w-1/5 lg:h-[50vh]">
-    //         <Player
-    //           name={player.name}
-    //           image={player.image}
-    //           position={player.position}
-    //           j_number={player.Jersey}
-    //         />
-    //       </div>
-    //     ))}
-    //   </section>
-    // </div>
+    
   );
 }
 
