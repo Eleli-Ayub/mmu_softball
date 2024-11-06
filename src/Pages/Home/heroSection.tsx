@@ -16,10 +16,10 @@ const Hero:React.FC = () => {
 
     <div className="flex">
       <div className="flex  text-4xl h-screen w-full">
-          <img className=" h-fit w-full object-cover p-0 md:p-5"
+          <img className=" h-fit w-fit md:w-full  object-cover p-0 md:p-5"
           src={Batting} alt="banner" />
       </div>
-      <div className="align-middle text-center ml-10 w-full p">
+      <div className="align-middle text-center ml-5 md:ml-10 md:w-full p">
         <p className="text-xl md:text-4xl text-red-600 pt-32">MMU STOMERZ</p>
         <p className="text-sm">(Baseball 5 and softball team) <br/> <span className="italic">
         MMU Stomerz is a team, comprised of both male and females, <br/>
@@ -29,7 +29,7 @@ const Hero:React.FC = () => {
         level. </span>
         </p>
 
-        <button className="rounded-lg m-10 bg-blue-800 w-40 h-10 text-white font-bold flex justify-between items-center text-start px-3 hover:bg-red-600">
+        <button className="rounded-lg m-10 bg-blue-800 md:w-40 h-10 text-white font-bold flex justify-between items-center text-start px-3 hover:bg-red-600">
           Explore more
           <ArrowLongRightIcon className="h-8 w-8"/>
         </button>
