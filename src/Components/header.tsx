@@ -5,24 +5,24 @@ import Logo from "../Assets/stomerz_logo.png";
 
 const Header:React.FC = () => {
   return (
-    <div className='w-full  h-20 top-0 left-0 z-50 bg-slate-300'>
+    <div className='w-full  md:h-20 top-0 left-0 z-50 bg-slate-300'>
     <nav className= 'flex items-center justify-between w-full max-w-7xl mx-auto px-4'>
       
        <div className=' '>
-                <img className='w-32 h-20'
+                <img className='w-20 md:w-32 h-14 md:h-20'
                 src={Logo}  alt="stomerz logo"/>
        </div>
-       <div className="flex space-x-6 items-center">
-          <Link to="/" className="text-red-600 font-bold text-xl hover:text-pink-500">
+       <div className="flex space-x-2 md:space-x-6 items-center">
+          <Link to="/" className="text-red-600 font-bold text-sm md:text-xl hover:text-pink-500">
             Home
           </Link>
-          <Link to="/Team" className="text-red-600 font-bold text-xl hover:text-pink-500">
+          <Link to="/Team" className="text-red-600 font-bold text-sm md:text-xl hover:text-pink-500">
             Team
           </Link>
-          <Link to="/Game" className="text-red-600 font-bold text-xl hover:text-pink-500">
-            Upcoming Games
+          <Link to="/Game" className="text-red-600 font-bold text-sm md:text-xl hover:text-pink-500">
+             Games
           </Link>
-          <Link to="/About" className="text-red-600 font-bold text-xl hover:text-pink-500">
+          <Link to="/About" className="text-red-600 font-bold text-sm md:text-xl hover:text-pink-500">
             About
           </Link>
         </div>

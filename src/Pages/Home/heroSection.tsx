@@ -11,16 +11,16 @@ import { ArrowLongRightIcon } from '@heroicons/react/24/solid'
 const Hero:React.FC = () => {
   return (
     
-    <div className="bg-slate-100 w-full h-full pt-20 mt-1">
+    <div className="bg-slate-100 w-full h-full pt-10 md:pt-20 mt-1">
       <div className="max-w-7xl mx-auto w-full">
 
     <div className="flex">
       <div className="flex  text-4xl h-screen w-full">
-          <img className=" h-fit w-full object-cover p-5"
+          <img className=" h-fit w-full object-cover p-0 md:p-5"
           src={Batting} alt="banner" />
       </div>
       <div className="align-middle text-center ml-10 w-full p">
-        <p className="text-4xl text-red-600 pt-32">MMU STOMERZ</p>
+        <p className="text-xl md:text-4xl text-red-600 pt-32">MMU STOMERZ</p>
         <p className="text-sm">(Baseball 5 and softball team) <br/> <span className="italic">
         MMU Stomerz is a team, comprised of both male and females, <br/>
         each totaling to a team that represents the Multimedia University <br/>
